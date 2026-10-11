@@ -38,10 +38,12 @@ namespace GlobalInputLib
         private static readonly object inputLock = new();
         private static readonly HashSet<VirtualKey> heldKeys = [];
 
-        [StructLayout(LayoutKind.Sequential)]
+        [StructLayout(LayoutKind.Explicit)]
         private struct InputUnion
         {
+            [FieldOffset(0)]
             public MOUSEINPUT mouse;
+            [FieldOffset(0)]
             public KEYBDINPUT keyboard;
         }
 
