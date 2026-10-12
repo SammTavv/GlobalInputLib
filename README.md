@@ -9,6 +9,7 @@ Add `using GlobalInputLib;` at the beginning of a file to reference the library.
 The static `Input` class holds every method in this library.<br>
 - `KeyDown(VirtualKey vk)`: presses a key
 - `KeyUp(VirtualKey vk)`: releases a key
+- `KeyTap(VirtualKey vk)`: presses and instantly releases a key
 - `MouseLeftDown()`: presses the left mouse button
 - `MouseLeftUp()`: releases the left mouse button
 - `MouseRightDown()`: presses the right mouse button
@@ -20,6 +21,5 @@ The static `Input` class holds every method in this library.<br>
 - `MouseMoveBy(int dx, int dy)`: moves the mouse by an amount of pixels
 - `MouseMoveTo(int x, int y)`: moves the mouse to a position of the screen
 - `IsKeyDown(VirtualKey vk)`: checks if a key is pressed
-- `KeyTap(VirtualKey vk)`: presses and instantly releases a key
 - `ReleaseKeys()`: releases every key
 - `MousePosition`: returns the mouse position
