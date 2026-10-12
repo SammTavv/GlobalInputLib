@@ -1,8 +1,8 @@
 # GlobalInputLib
-C# library that handles and simulates Windows input globally.
+C# library for `.NET 9.0` that handles and simulates Windows input globally.
 
 ## How to use
-Download the `.dll` file and import it in your project.<br>
+Download the `GlobalInputLib.dll` file and import it in your project.<br>
 Add `using GlobalInputLib;` at the beginning of a file to reference the library.
 
 ## Methods
