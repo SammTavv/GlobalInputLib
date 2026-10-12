@@ -17,6 +17,8 @@ The static `Input` class holds every method in this library.<br>
 - `MouseMiddleUp()`: releases the middle mouse button
 - `MouseScrollVertical(int amount)`: scrolls the mouse vertically (default is 120)
 - `MouseScrollHorizontal(int amount)`: scrolls the mouse horizontally (default is 120)
+- `MouseMoveBy(int dx, int dy)`: moves the mouse by an amount of pixels
+- `MouseMoveTo(int x, int y)`: moves the mouse to a position of the screen
 - `IsKeyDown(VirtualKey vk)`: checks if a key is pressed
 - `KeyTap(VirtualKey vk)`: presses and instantly releases a key
 - `ReleaseKeys()`: releases every key
